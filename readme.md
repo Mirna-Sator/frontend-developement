@@ -66,8 +66,8 @@ Website: ASOS
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken]
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakoutschets1.png) ![](images/breakoutschets2.jpg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakoutschets1.png) ![](images/breakoutschetspt2.png)
