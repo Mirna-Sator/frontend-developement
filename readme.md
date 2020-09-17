@@ -39,15 +39,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-Het opstellen van de html pagina ging goed, maar door vele deadlines heb ik mijn tijd niet goed kunnen verdelen en loop ik een beetje achter.-
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![-Mijn voortgang-](images/asosappss.png)
+
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+-1. semantisch correctheid (15 min) (uitleg)
+-2. Javascript             (30 min) (opdrachten bekijken)
+-3. Css uitlijnen          (15 min) (uitleg)-
 
 ### Verslag van meeting
 
