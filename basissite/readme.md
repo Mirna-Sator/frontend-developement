@@ -35,7 +35,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![-Mijn voortgang-](images/asosappss.png)
+![-Mijn voortgang in week 5-](images/asosappvoortgang2.png)
 
 ### Agenda voor meeting
 
