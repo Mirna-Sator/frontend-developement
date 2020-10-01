@@ -31,10 +31,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--Het is nu wat rustiger qua deadlines, dus heb ik meer tijd gehad eraan te werken.-
+-Het is nu wat rustiger qua deadlines, dus heb ik meer tijd gehad om eraan te werken.-
 
 **Screenshot(s):**
+
+
 ![-Mijn voortgang in week 5-](images/asosappvoortgang2.png)
+
 
 ### Agenda voor meeting
 
