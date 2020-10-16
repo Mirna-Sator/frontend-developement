@@ -10,109 +10,187 @@ body{
 
 header {
   background-color: #2D2D2D;
-  margin: 0;
-  height: 3em;
   width: 100%;
-  top: -1em;
-  position: relative;
+
+}
+main {
+    font-family: 'futura-pt', sans-serif;
+  width: 100%;
 }
 
-nav {
-width: 100%;
-height: 100%;
-}
 
 nav ul {
   display: flex;
-  width: 100%;
-  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 2%;
 }
 
 header nav ul li:first-of-type img{
-  width: 4em;
-  position: absolute;
-}
-
-header nav ul li:first-of-type {
-  position: absolute;
-  left: 0;
-  margin: 0.5em 0em 0em 0em
+  width: 2em;
 }
 
 header nav ul li:nth-of-type(2) img {
   width: 6em;
-  position: absolute;
+  padding-top: 0.03em;
 }
 
-header nav ul li:nth-of-type(2) {
-  position: absolute;
-  left: 7em;
-  top: 0.236em;
-}
 
 header nav ul li:nth-of-type(3) img{
-  width: 3em;
+  width: 2em;
 }
 
-header nav ul li:nth-of-type(3) {
-  position: absolute;
-  right: 3em;
-  margin: 0.3em 0em 0em 0em;
-}
 
 header nav ul li:nth-of-type(4) img{
-  width: 4em;
-  position: absolute;
-
+  width: 2em;
 }
 
-header nav ul li:nth-of-type(4) {
-  position: absolute;
-  right: 3em;
-margin: -1.2em 0em 0em 0em;
-}
 
 header nav ul li:nth-of-type(5) img{
   width: 2em;
-  position: absolute;
 }
 
-header nav ul li:nth-of-type(5) {
-  position: absolute;
-  left: 3em;
-  margin: -0.5em 0em 0em 1em;
-}
 
 section:first-of-type {
-    font-family: 'Archivo Black', sans-serif;
+      font-family: futura-pt-condensed, sans-serif;
+      font-weight: 800;
+      font-style: normal;
+      position: relative;
+      height: 11em;
+      background-color: #232323;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+}
+
+section:nth-of-type(2) {
+    font-family: futura-pt-condensed, sans-serif;
   font-weight: bold;
   font-style: italic;
 }
 
-section:first-of-type img {
-  width: 42em;
-  height: 19em;
-  margin: 0em 0em 0em -10em;
+section:first-of-type img:first-of-type {
+  width: 48%;
 }
 
-section:first-of-type p {
-  position: absolute;
-font-size: 2.2em;
-left: 0.4em;
-top: 4em;
-background-color: #ED1C3C;
-width: 91%;
-text-align: center;
+section:first-of-type p:first-of-type {
+  font-family: 'futura-pt', sans-serif;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+
+section:first-of-type p:nth-of-type(2) {
+  font-family: 'futura-pt', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: white;
+      margin-bottom: 1em;
+      font-size: 0.7em;
+      text-align: center;
 }
 
 section:first-of-type h1 {
-  position: absolute;
-      font-size: 2.4em;
-      left: 2.4em;
-      top: 1.9em;
-      background-color: #ED1C3C;
-      height: 8%;
-      padding: 0em 0em 1.3em 0em;
+
+  font-family: futura-pt-bold, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 2em;
+    background-color: white;
+    width: 7em;
+    height: 1.3em;
+    margin: 0;
+    margin-top: 0.6em;
+    color: black;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+main > ul:first-of-type {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+main > ul:nth-of-type(2) {
+display: flex;
+flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+main > ul:first-of-type li {
+
+  width: 40%;
+}
+
+main > ul:nth-of-type(2) li {
+  width: 90%;
+      position: relative;
+      text-align: center;
+}
+
+main > ul:nth-of-type(2) li img {
+  width: 100%;
+}
+
+main > ul:nth-of-type(2) li h2 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+main > ul:nth-of-type(2) li p {
+font-family: futura-pt, sans-serif;
+font-weight: 400;
+font-style: normal;
+  color: black;
+text-align: center;
+font-size: 1.3em;
+}
+
+main > ul:nth-of-type(2) button {
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  text-align: center;
+  font-size: 1.3em;
+  border: 3px black solid;
+  margin: 0em 0em 1em 0em;
+}
+
+
+main > ul:first-of-type li img {
+  width: 100%;
+}
+
+main > ul:first-of-type li h2 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.8em;
+  color: black;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+main > ul:first-of-type li p {
+  color: black;
+  text-align: center;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 li {
@@ -122,14 +200,139 @@ header h1{
   color: white;
   margin: 0px 0px 0px 147px;
 }
-header nav li:first-of-type img {
-  width:
-  position: absolute;
-  left: 0;
-  top: 0;
-}
+
 button {
   background:transparent;
   border:none;
   outline:none;
 }
+/*pagina2*/
+
+
+#pagina2 section:first-of-type h2 {
+  font-family: futura-pt-bold, sans-serif;
+      font-weight: bolder;
+      font-style: normal;
+      font-size: 1.6em;
+      width: 12em;
+      height: 1.3em;
+      margin: 0;
+      margin-top: 0.6em;
+      color: black;
+      text-align: center;
+      letter-spacing: 0.02em;
+}
+
+#pagina2 > ul:first-of-type li h2 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.8em;
+  color: #666;
+  text-align: left;
+  letter-spacing: 0.05em;
+}
+
+#pagina2 section:first-of-type {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    position: relative;
+    height: 11em;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+#pagina2 section:first-of-type p:first-of-type {
+  font-family: 'futura-pt', sans-serif;
+      font-size: 1em;
+      font-style: normal;
+      font-weight: 400;
+      margin: 0;
+      padding-top: 2em;
+      text-align: center;
+      color: black;
+    }
+
+  #pagina2 section:first-of-type p:nth-of-type(2) {
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    position: relative;
+    padding: -10%;
+    padding: -15%;
+    padding: -8%;
+    margin: 0;
+    font-size: 1.3em;
+    text-align: center;
+    }
+
+#pagina2 button:first-of-type {
+
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  border: none;
+  position: relative;
+  width: 12em;
+  color: #666666;
+  background: #eee;
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 0.04em;
+  padding: 4%;
+}
+
+#pagina2 button:nth-of-type(2) {
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  border: none;
+  position: relative;
+  width: 12em;
+  color: #666666;
+  background: #eee;
+  text-align: center;
+    font-size: 1em;
+    letter-spacing: 0.04em;
+    padding: 4%;
+}
+
+#pagina2 > ul:first-of-type {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+#pagina2 p:first-of-type {
+font-family: futura-pt, sans-serif;
+font-weight: 300;
+font-style: normal;
+color: black;
+text-align: center;
+}
+
+#pagina2 ul:first-of-type li p {
+    color: black;
+    text-align: left;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#pagina2 ul:first-of-type li button {
+  width: 20%;
+}
+
+#pagina2 section:nth-of-type(2) {
+  display: flex;
+}
+
+#pagina2  ul:first-of-type li {
+    width: 45%;

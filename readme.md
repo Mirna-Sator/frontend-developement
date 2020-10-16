@@ -19,6 +19,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
+
 -screenshot(s) van je eindresultaat-
 
 
@@ -27,6 +28,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -same as voortgang 1-
 
+**Screenshot(s):**
+
+![-Mijn voortgang in week 5-](images/asosappvoortgang2.png)
+
+### Agenda voor meeting
+| Mirna                      | Rikkert                   | Bas                          | Sophie                                           |
+| -------------              |:-------------:            | -----:                       | -----:                                           |
+| sematisch checken CSS en HTML| Grid grootte            |   sematisch checken HTML     | Is display:none; correcte code?                  |
+|                            |Grid juist plaatsen         |                              | Errors uit javascript halen                      |
+|                            | img grootte in grid        |                              | Hoe krijg je gradient over een element?          |
+|                            |                           |                              | Hoe zorg ik ervoor dat ie bovenaan blijft staan als hij uitklapt? VANAF REGEL 129 JS/ 125 HTML
 
 
 ## Voortgang 2 (week 5)
@@ -47,7 +59,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 |  flex-box dingetje         |   Tweede pagina meer info |                              | moeten de img op knopjes met background-image|
 | Hoe krijgen we pluspunten? |                           |                              | Hoever moet filters toegepast worden? |
 
-
+### Verslag van meeting
+We zijn begonnen met naar de code te kijken van Mirna. Hier hebben we de CSS code opgeschoont samen met het team en met Sanne. Hij was erg tevreden over dat Mirna de selector "nth-of-type" vaak had gebruikt. Hierna zijn we verder gegaan met Rikkert om naar zijn Supreme website te kijken. Hier hebben we de carroussel op de homepage veranderd. Deze moet namelijk op het einde beginnen en op de page load naar links scrollen.
+Sanne gaf als tip om bij de CSS iets uit te commenten als je gaat testen.
+Als 3e kwam Sophie aan het woord. Hier hebben we besproken of we nou wel of geen divjes mogen gebruiken. Tevens hebben we naar haar code gekeken en deze een beetje aangepast. We hebben naar de horizontale scrollable section gekeken en van divjes hebben we een ul en li gemaakt. Sanne heeft verteld dat je een aria-label aan een button moet toevoegen voor screen readers.
+Als laatste heeft Bas zijn website laten zien. Hij vroeg zich af of zijn 2e pagina goed genoeg was. Dit was niet het geval en mag een meer complexere pagina kiezen om dit uit te werken. Sanne heeft gevraagd of de website ook goed werkte met alleen een keyboard en liet Bas d.m.v. de tab toets navigeren door zijn website heen.
 
 ## Voortgang 1 (week 3)
 
