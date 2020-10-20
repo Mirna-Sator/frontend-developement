@@ -243,7 +243,7 @@ top: 1em;
 left: 2em;
 }
 
-.menuasos ul li:nth-of-type(2) p {
+.menuasos ul li:nth-of-type(2) a p {
 font-family: futura-pt, sans-serif;
 font-weight: 600;
 font-style: normal;
@@ -298,7 +298,7 @@ position: relative;
       position: absolute;
       top: 0em;
       right: -4.4em;
-      width: 19%;
+      width: 17%;
 }
 
 .menuasos button:nth-of-type(3) img {
@@ -398,17 +398,17 @@ position: relative;
 #pagina2 button:first-of-type {
 
   font-family: futura-pt, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  border: none;
-  position: relative;
-  width: 12em;
-  color: #666666;
-  background: #eee;
-  text-align: center;
-  font-size: 1em;
-  letter-spacing: 0.04em;
-  padding: 4%;
+    font-weight: 600;
+    font-style: normal;
+    border: none;
+    position: relative;
+    width: 50%;
+    color: #666666;
+    background: #eee;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 0.04em;
+    padding: 4%;
 }
 
 #pagina2 button:nth-of-type(2) {
@@ -417,7 +417,7 @@ position: relative;
   font-style: normal;
   border: none;
   position: relative;
-  width: 12em;
+  width: 50%;
   color: #666666;
   background: #eee;
   text-align: center;
