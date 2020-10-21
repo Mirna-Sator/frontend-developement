@@ -18,7 +18,7 @@ main {
   width: 100%;
 }
 
-
+/*bovenste balk*/
 .navigatie{
   display: flex;
   justify-content: space-between;
@@ -50,7 +50,7 @@ main {
   width: 2em;
 }
 
-
+/*Hier nieuw blok*/
 main section:first-of-type {
       font-family: futura-pt-condensed, sans-serif;
       font-weight: 800;
@@ -108,7 +108,7 @@ section:first-of-type h1 {
     text-align: center;
     letter-spacing: 0.02em;
 }
-
+/*lijst met aanbevelingen*/
 main > ul:first-of-type {
   padding: 0;
   display: flex;
@@ -117,6 +117,25 @@ main > ul:first-of-type {
   width: 100%;
 }
 
+main > ul:first-of-type li h2 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.8em;
+  color: black;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+main > ul:first-of-type li p {
+  color: black;
+  text-align: center;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*nu shoppen lijst*/
 main > ul:nth-of-type(2) {
 display: flex;
 flex-direction: column;
@@ -169,27 +188,18 @@ main > ul:nth-of-type(2) button {
   margin: 0em 0em 1em 0em;
 }
 
+main > ul:nth-of-type(2) button:hover {
+  background-color: red;
+}
+main > ul:nth-of-type(2) button:active {
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+main > ul:nth-of-type(2) button:focus{
+  border: 5px solid pink;
+}
 
 main > ul:first-of-type li img {
   width: 100%;
-}
-
-main > ul:first-of-type li h2 {
-  font-family: futura-pt, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 0.8em;
-  color: black;
-  text-align: center;
-  letter-spacing: 0.05em;
-}
-
-main > ul:first-of-type li p {
-  color: black;
-  text-align: center;
-  font-family: futura-pt, sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 li {
@@ -206,6 +216,7 @@ button {
   outline:none;
 }
 
+/*menu*/
 .menuasos {
   position: fixed;
   justify-content: space-evenly;
@@ -264,6 +275,10 @@ position: relative;
   margin: 1em 0em 0em 1em;
 }
 
+.menuasos ul li img:hover {
+  box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
 .menuasos button:first-of-type {
   font-family: futura-pt, sans-serif;
       font-weight: 600;
@@ -277,6 +292,16 @@ position: relative;
       font-size: 1em;
       letter-spacing: 0.04em;
       padding: 5%;
+}
+
+.menuasos button:first-of-type:hover {
+    background-color: red;
+}
+.menuasos button:first-of-type:active {
+ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.menuasos button:first-of-type:focus{
+ border: 5px solid pink;
 }
 
 .menuasos button:nth-of-type(2) {
@@ -293,6 +318,17 @@ position: relative;
   letter-spacing: 0.04em;
   padding: 5%;
 }
+
+.menuasos button:nth-of-type(2):hover {
+    background-color: red;
+}
+.menuasos button:nth-of-type(2):active {
+ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.menuasos button:nth-of-type(2):focus{
+ border: 5px solid pink;
+}
+
 .menuasos button:nth-of-type(3) {
   background-color: #2d2d2d;
       position: absolute;
@@ -301,14 +337,23 @@ position: relative;
       width: 17%;
 }
 
+.menuasos button:nth-of-type(3):hover {
+    background-color: red;
+}
+.menuasos button:nth-of-type(3):active {
+ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.menuasos button:nth-of-type(3):focus{
+ border: 5px solid pink;
+}
+
 .menuasos button:nth-of-type(3) img {
   margin: 0;
       width: 71%;
       padding-top: 0.6em;
 }
+
 /*pagina2*/
-
-
 #pagina2 .navigatie li:first-of-type img{
   width: 2em;
 }
@@ -332,7 +377,17 @@ position: relative;
   width: 2em;
 }
 
+#pagina2 > ul:first-of-type li h2 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.8em;
+  color: #666;
+  text-align: left;
+  letter-spacing: 0.05em;
+}
 
+/*blok nieuwe sweaters dames en heren*/
 #pagina2 section:first-of-type h2 {
   font-family: futura-pt-bold, sans-serif;
       font-weight: bolder;
@@ -345,16 +400,6 @@ position: relative;
       color: black;
       text-align: center;
       letter-spacing: 0.02em;
-}
-
-#pagina2 > ul:first-of-type li h2 {
-  font-family: futura-pt, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 0.8em;
-  color: #666;
-  text-align: left;
-  letter-spacing: 0.05em;
 }
 
 #pagina2 section:first-of-type {
@@ -395,6 +440,7 @@ position: relative;
     text-align: center;
     }
 
+/*sorteer en filteren button pagina2*/
 #pagina2 button:first-of-type {
 
   font-family: futura-pt, sans-serif;
@@ -409,6 +455,20 @@ position: relative;
     font-size: 1em;
     letter-spacing: 0.04em;
     padding: 4%;
+}
+
+#pagina2 button:first-of-type:hover {
+   background-color: yellow;
+}
+#pagina2 button:first-of-type:active {
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#pagina2 button:first-of-type:focus {
+  border: 5px solid pink;
+}
+
+#pagina2 section:nth-of-type(2) {
+  display: flex;
 }
 
 #pagina2 button:nth-of-type(2) {
@@ -426,6 +486,17 @@ position: relative;
     padding: 4%;
 }
 
+#pagina2 button:nth-of-type(2):hover {
+   background-color: yellow;
+}
+#pagina2 button:nth-of-type(2):active {
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#pagina2 button:nth-of-type(2):focus {
+  border: 5px solid pink;
+}
+
+/*lijst met alle producten*/
 #pagina2 > ul:first-of-type {
     padding: 0;
     display: flex;
@@ -450,12 +521,13 @@ text-align: center;
     font-style: normal;
   }
 
-#pagina2 ul:first-of-type li button img {
+#pagina2 .favorite {
   width: 100%;
   background: white;
   padding-bottom: 0.25em;
   }
 
+/*favorietenknop*/
 #pagina2 ul:first-of-type li button {
       width: 20%;
       height: 10%;
@@ -465,12 +537,31 @@ text-align: center;
       left: 75%;
       position: absolute;
 }
-
-#pagina2 section:nth-of-type(2) {
-  display: flex;
+#pagina2 ul:first-of-type li button:hover {
+    background-color: pink;
+}
+#pagina2 ul:first-of-type li button:active {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#pagina2 ul:first-of-type li button:hover {
+  border: 5px solid blue;
 }
 
 #pagina2  ul:first-of-type li {
     width: 45%;
     position: relative;
   }
+
+  @keyframes sorteer-animation {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(2);
+    }
+}
+
+#pagina2 section:nth-of-type(2) button:first-of-type:hover {
+    animation-name: sorteer-animation;
+    animation-duration: 1s; }

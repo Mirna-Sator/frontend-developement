@@ -1,4 +1,6 @@
 // JavaScript Document
+
+/*menu*/
 var menuSection = document.querySelector("#menu");
 var buttonHamburgermenu = document.querySelector("#hamburgerbutton");
 var sluitenMenu = document.querySelector("#sluiten");
