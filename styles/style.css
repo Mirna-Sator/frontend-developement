@@ -18,6 +18,16 @@ main {
   width: 100%;
 }
 
+li {
+  list-style-type: none;
+}
+
+button {
+  background:transparent;
+  border:none;
+  outline:none;
+}
+
 /*bovenste balk*/
 .navigatie{
   display: flex;
@@ -52,62 +62,49 @@ main {
 
 /*Hier nieuw blok*/
 main section:first-of-type {
-      font-family: futura-pt-condensed, sans-serif;
-      font-weight: 800;
-      font-style: normal;
-      position: relative;
-      height: 11em;
-      background-color: #232323;
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      justify-content: center;
-}
-
-section:nth-of-type(2) {
-    font-family: futura-pt-condensed, sans-serif;
-  font-weight: bold;
-  font-style: italic;
-}
-
-main section:first-of-type img:first-of-type {
-  width: 48%;
-}
-
- main section:first-of-type p:first-of-type {
-  font-family: 'futura-pt', sans-serif;
-    font-size: 1.2em;
-    font-style: normal;
-    font-weight: 400;
-    margin: 0;
-    text-align: center;
-}
-
- main section:first-of-type p:nth-of-type(2) {
-  font-family: 'futura-pt', sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      color: white;
-      margin-bottom: 1em;
-      font-size: 0.7em;
-      text-align: center;
+  position: relative;
+  height: 11em;
+  background-color: #232323;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
 }
 
 section:first-of-type h1 {
-
   font-family: futura-pt-bold, sans-serif;
-    font-weight: bolder;
-    font-style: italic;
-    font-size: 2em;
-    background-color: white;
-    width: 7em;
-    height: 1.3em;
-    margin: 0;
-    margin-top: 0.6em;
-    color: black;
-    text-align: center;
-    letter-spacing: 0.02em;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 2em;
+  background-color: white;
+  width: 7em;
+  height: 1.3em;
+  margin: 0;
+  margin-top: 0.6em;
+  color: black;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
+
+main section:first-of-type p:first-of-type {
+ font-family: futura-pt, sans-serif;
+ font-size: 1.2em;
+ font-style: normal;
+ font-weight: 400;
+ margin: 0;
+ text-align: center;
+}
+
+main section:first-of-type p:nth-of-type(2) {
+ font-family: 'futura-pt', sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ color: white;
+ margin-bottom: 1em;
+ font-size: 0.7em;
+ text-align: center;
+}
+
 /*lijst met aanbevelingen*/
 main > ul:first-of-type {
   padding: 0;
@@ -135,24 +132,23 @@ main > ul:first-of-type li p {
   font-style: normal;
 }
 
+main > ul:first-of-type li {
+  width: 40%;
+}
+
 /*nu shoppen lijst*/
 main > ul:nth-of-type(2) {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   margin: 0;
   padding: 0;
 }
 
-main > ul:first-of-type li {
-
-  width: 40%;
-}
-
 main > ul:nth-of-type(2) li {
   width: 90%;
-      position: relative;
-      text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 main > ul:nth-of-type(2) li img {
@@ -169,12 +165,12 @@ main > ul:nth-of-type(2) li h2 {
 }
 
 main > ul:nth-of-type(2) li p {
-font-family: futura-pt, sans-serif;
-font-weight: 400;
-font-style: normal;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: black;
-text-align: center;
-font-size: 1.3em;
+  text-align: center;
+  font-size: 1.3em;
 }
 
 main > ul:nth-of-type(2) button {
@@ -191,29 +187,13 @@ main > ul:nth-of-type(2) button {
 main > ul:nth-of-type(2) button:hover {
   background-color: red;
 }
+
 main > ul:nth-of-type(2) button:active {
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
 main > ul:nth-of-type(2) button:focus{
   border: 5px solid pink;
-}
-
-main > ul:first-of-type li img {
-  width: 100%;
-}
-
-li {
-  list-style-type: none;
-}
-header h1{
-  color: white;
-  margin: 0px 0px 0px 147px;
-}
-
-button {
-  background:transparent;
-  border:none;
-  outline:none;
 }
 
 /*menu*/
@@ -230,36 +210,35 @@ button {
   transform: translateX(-120%);
   transition: 0.2s;
   background-color: white;
-
 }
 
 .menuasosopen {
   transition: 0.2s;
-background-color: white;
-transform: translateX(0%);
+  background-color: white;
+  transform: translateX(0%);
 }
 
 .menuasos ul li p {
-font-family: futura-pt, sans-serif;
-font-weight: 600;
-font-style: normal;
-position: absolute;
-color: black;
-top: 2.5em;
-left: 2em;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  position: absolute;
+  color: black;
+  top: 2.5em;
+  left: 2em;
 }
 
 .menuasos ul li:first-of-type p {
-top: 1em;
-left: 2em;
+  top: 1em;
+  left: 2em;
 }
 
 .menuasos ul li:nth-of-type(2) a p {
-font-family: futura-pt, sans-serif;
-font-weight: 600;
-font-style: normal;
-position: absolute;
-color: white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  position: absolute;
+  color: white;
 }
 
 .menuasos ul {
@@ -267,7 +246,7 @@ color: white;
 
 }
 .menuasos ul li {
-position: relative;
+  position: relative;
 
 }
 .menuasos ul li img {
@@ -281,27 +260,29 @@ position: relative;
 
 .menuasos button:first-of-type {
   font-family: futura-pt, sans-serif;
-      font-weight: 600;
-      font-style: normal;
-      border-bottom: 2px black solid;
-      position: relative;
-      width: 9em;
-      color: black;
-      background: white;
-      text-align: center;
-      font-size: 1em;
-      letter-spacing: 0.04em;
-      padding: 5%;
+  font-weight: 600;
+  font-style: normal;
+  border-bottom: 2px black solid;
+  position: relative;
+  width: 9em;
+  color: black;
+  background: white;
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 0.04em;
+  padding: 5%;
 }
 
 .menuasos button:first-of-type:hover {
-    background-color: red;
+  background-color: red;
 }
+
 .menuasos button:first-of-type:active {
- box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
 .menuasos button:first-of-type:focus{
- border: 5px solid pink;
+   border: 5px solid pink;
 }
 
 .menuasos button:nth-of-type(2) {
@@ -320,40 +301,46 @@ position: relative;
 }
 
 .menuasos button:nth-of-type(2):hover {
-    background-color: red;
+  background-color: red;
 }
+
 .menuasos button:nth-of-type(2):active {
- box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
 .menuasos button:nth-of-type(2):focus{
- border: 5px solid pink;
+   border: 5px solid pink;
 }
 
 .menuasos button:nth-of-type(3) {
   background-color: #2d2d2d;
-      position: absolute;
-      top: 0em;
-      right: -4.4em;
-      width: 17%;
+  position: absolute;
+  top: 0em;
+  right: -4.4em;
+  width: 17%;
 }
 
 .menuasos button:nth-of-type(3):hover {
-    background-color: red;
+  background-color: red;
 }
+
 .menuasos button:nth-of-type(3):active {
- box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
 .menuasos button:nth-of-type(3):focus{
- border: 5px solid pink;
+   border: 5px solid pink;
 }
 
 .menuasos button:nth-of-type(3) img {
   margin: 0;
-      width: 71%;
-      padding-top: 0.6em;
+  width: 71%;
+  padding-top: 0.6em;
 }
 
 /*pagina2*/
+
+/*bovenste balk pagina2*/
 #pagina2 .navigatie li:first-of-type img{
   width: 2em;
 }
@@ -362,7 +349,6 @@ position: relative;
   width: 6em;
   padding-top: 0.03em;
 }
-
 
 #pagina2 .navigatie li:nth-of-type(3) img{
   width: 2em;
@@ -377,73 +363,62 @@ position: relative;
   width: 2em;
 }
 
-#pagina2 > ul:first-of-type li h2 {
-  font-family: futura-pt, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 0.8em;
-  color: #666;
-  text-align: left;
-  letter-spacing: 0.05em;
-}
-
 /*blok nieuwe sweaters dames en heren*/
+#pagina2 section:first-of-type {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  position: relative;
+  height: 11em;
+  background-color: #F8F8F8;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  }
+
 #pagina2 section:first-of-type h2 {
   font-family: futura-pt-bold, sans-serif;
-      font-weight: bolder;
-      font-style: normal;
-      font-size: 1.6em;
-      width: 12em;
-      height: 1.3em;
-      margin: 0;
-      margin-top: 0.6em;
-      color: black;
-      text-align: center;
-      letter-spacing: 0.02em;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 1.6em;
+  width: 12em;
+  height: 1.3em;
+  margin: 0;
+  margin-top: 0.6em;
+  color: black;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
-
-#pagina2 section:first-of-type {
-    font-family: futura-pt-condensed, sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    position: relative;
-    height: 11em;
-    background-color: #F8F8F8;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-  }
 
 #pagina2 section:first-of-type p:first-of-type {
   font-family: 'futura-pt', sans-serif;
-      font-size: 1em;
-      font-style: normal;
-      font-weight: 400;
-      margin: 0;
-      padding-top: 2em;
-      text-align: center;
-      color: black;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 2em;
+  text-align: center;
+  color: black;
     }
 
-  #pagina2 section:first-of-type p:nth-of-type(2) {
-    font-family: futura-pt, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: black;
-    position: relative;
-    padding: -10%;
-    padding: -15%;
-    padding: -8%;
-    margin: 0;
-    font-size: 1.3em;
-    text-align: center;
+#pagina2 section:first-of-type p:nth-of-type(2) {
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  position: relative;
+  padding: -10%;
+  padding: -15%;
+  padding: -8%;
+  margin: 0;
+  font-size: 1.3em;
+  text-align: center;
     }
 
 /*sorteer en filteren button pagina2*/
 #pagina2 button:first-of-type {
-
-  font-family: futura-pt, sans-serif;
+    font-family: futura-pt, sans-serif;
     font-weight: 600;
     font-style: normal;
     border: none;
@@ -481,75 +456,90 @@ position: relative;
   color: #666666;
   background: #eee;
   text-align: center;
-    font-size: 1em;
-    letter-spacing: 0.04em;
-    padding: 4%;
+  font-size: 1em;
+  letter-spacing: 0.04em;
+  padding: 4%;
 }
 
 #pagina2 button:nth-of-type(2):hover {
-   background-color: yellow;
+  background-color: yellow;
 }
+
 #pagina2 button:nth-of-type(2):active {
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
 #pagina2 button:nth-of-type(2):focus {
   border: 5px solid pink;
 }
 
 /*lijst met alle producten*/
 #pagina2 > ul:first-of-type {
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
   }
 
 #pagina2 p:first-of-type {
-font-family: futura-pt, sans-serif;
-font-weight: 300;
-font-style: normal;
-color: black;
-text-align: center;
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+  text-align: center;
 }
 
 #pagina2 ul:first-of-type li p {
-    color: black;
-    text-align: left;
-    font-family: futura-pt, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  color: black;
+  text-align: left;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   }
 
+#pagina2 > ul:first-of-type li h2 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.8em;
+  color: #666;
+  text-align: left;
+  letter-spacing: 0.05em;
+  }
+
+/*favorietenknop*/
 #pagina2 .favorite {
   width: 100%;
   background: white;
   padding-bottom: 0.25em;
   }
 
-/*favorietenknop*/
 #pagina2 ul:first-of-type li button {
-      width: 20%;
-      height: 10%;
-      background-color: white;
-      border-radius: 3em;
-      bottom: 36%;
-      left: 75%;
-      position: absolute;
+  width: 20%;
+  height: 10%;
+  background-color: white;
+  border-radius: 3em;
+  bottom: 36%;
+  left: 75%;
+  position: absolute;
 }
+
 #pagina2 ul:first-of-type li button:hover {
-    background-color: pink;
+  background-color: pink;
 }
+
 #pagina2 ul:first-of-type li button:active {
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
 #pagina2 ul:first-of-type li button:hover {
   border: 5px solid blue;
 }
 
 #pagina2  ul:first-of-type li {
-    width: 45%;
-    position: relative;
+  width: 45%;
+  position: relative;
   }
 
   @keyframes sorteer-animation {
