@@ -188,11 +188,11 @@ main > ul:nth-of-type(2) button {
 
 /* active en focus */
 main > ul:nth-of-type(2) button:active {
-    box-shadow: 5px 4px 6px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 4px 6px 0px rgba(0,0,0,0.75);
 }
 
 main > ul:nth-of-type(2) button:focus{
-  border: 3px solid pink;
+  border: 3px solid red;
 }
 
 /*menu*/
@@ -201,7 +201,7 @@ main > ul:nth-of-type(2) button:focus{
   justify-content: space-evenly;
   z-index: 44;
   margin: 0em;
-  width: 83%;
+  width: 80%;
   top: 0;
   right: 0;
   left: 0;
@@ -280,11 +280,11 @@ main > ul:nth-of-type(2) button:focus{
 
 /* active en focus */
 .menuasos button:first-of-type:active {
-    box-shadow: 5px 4px 6px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 4px 6px 0px rgba(0,0,0,0.75);
 }
 
 .menuasos button:first-of-type:focus{
-   border: 1px solid pink;
+   border: 1px solid red;
 }
 
 .menuasos button:nth-of-type(2) {
@@ -304,17 +304,17 @@ main > ul:nth-of-type(2) button:focus{
 
 /* active en focus */
 .menuasos button:nth-of-type(2):active {
-     box-shadow: 5px 4px 6px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 4px 6px 0px rgba(0,0,0,0.75);
 }
 
 .menuasos button:nth-of-type(2):focus{
-   border: 1px solid pink;
+  border: 1px solid red;
 }
 
 
 .menuasos button.actief {
-    border-bottom: 2px black solid;
-    color: black;
+  border-bottom: 2px black solid;
+  color: black;
 }
 
 .menuasos button:nth-of-type(3) {
@@ -332,7 +332,7 @@ main > ul:nth-of-type(2) button:focus{
 }
 
 .menuasos button:nth-of-type(3):focus{
-   border: 5px solid pink;
+   border: 5px solid red;
 }
 
 
@@ -411,17 +411,17 @@ display: block;
 }
 
 #pagina2 section:first-of-type p:nth-of-type(2) {
-  font-family: futura-pt, sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      color: black;
-      position: relative;
-      padding: -10%;
-      padding: -15%;
-      padding: -8%;
-      margin: 0;
-      font-size: 1.3em;
-      text-align: center;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    position: relative;
+    padding: -10%;
+    padding: -15%;
+    padding: -8%;
+    margin: 0;
+    font-size: 1.3em;
+    text-align: center;
     }
 
 /*sorteer en filteren button pagina2*/
@@ -492,6 +492,7 @@ display: block;
 }
 
 #pagina2 button:nth-of-type(2):focus {
+  border: 1px solid red;
 }
 
 /*lijst met alle producten*/
@@ -555,12 +556,12 @@ display: block;
 
 #pagina2 ul:first-of-type li:first-of-type button.ingekleurd {
   background-image: url(../images/asoshartjezwart.png);
-    animation: hartje-animatie 0.5s;
+  animation: hartje-animatie 0.5s;
 }
 
 /* active en focus */
 #pagina2 ul:first-of-type li button:focus {
-   transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 #pagina2 ul:first-of-type li button:active {
