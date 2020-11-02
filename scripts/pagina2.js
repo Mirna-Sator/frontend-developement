@@ -1,6 +1,6 @@
 // JavaScript Document
 
-/*hartjesknop zwart en wit*/
+/*hartjesknop wit naar zwart*/
 var hartjesknop = document.querySelector("#pagina2 ul:first-of-type li:first-of-type button");
 var hartjesimg = document.querySelector("#pagina2 ul:first-of-type li:first-of-type button img");
 

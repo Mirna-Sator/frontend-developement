@@ -14,7 +14,7 @@ header {
 
 }
 main {
-    font-family: 'futura-pt', sans-serif;
+  font-family: 'futura-pt', sans-serif;
   width: 100%;
 }
 
@@ -317,6 +317,7 @@ main > ul:nth-of-type(2) button:focus{
   color: black;
 }
 
+
 .menuasos button:nth-of-type(3) {
   background-color: #2d2d2d;
   position: absolute;
@@ -342,12 +343,13 @@ main > ul:nth-of-type(2) button:focus{
   padding-top: 0.6em;
 }
 
+
 .menuasos ul.verdwijnen {
   display: none;
 }
 
 .menuasos ul.tevoorschijn {
-display: block;
+  display: block;
 }
 
 /*pagina2*/
@@ -465,10 +467,19 @@ display: block;
   padding: 4%;
 }
 
+/* filteren button ingedrukt */
+#pagina2 button:nth-of-type(2).inklikken{
+  animation-name: kleinermaken;
+  transform-origin: center bottom;
+  animation-duration:0.3s;
+  animation-iteration-count:1;
+  animation-timing-function: linear;
+}
+
+/* filteren knop ingedrukt animatie */
 @keyframes kleinermaken {
   0% {
     transform: scale(1);
-
   }
   50% {
     transform: scale(0.9);
@@ -476,14 +487,6 @@ display: block;
  100%{
     transform: scale(1);
   }
-}
-
-#pagina2 button:nth-of-type(2).inklikken{
-   animation-name: kleinermaken;
-    transform-origin: center bottom;
-  animation-duration:0.3s;
-  animation-iteration-count:1;
-  animation-timing-function: linear;
 }
 
 /* active en focus */
@@ -530,7 +533,7 @@ display: block;
   letter-spacing: 0.05em;
   }
 
-/*favorietenknop*/
+/*hartjesknop*/
 #pagina2 .favorite {
   width: 100%;
   background: white;
@@ -547,6 +550,7 @@ display: block;
   position: absolute;
 }
 
+/* hartjesknop zwart */
 #pagina2 ul:first-of-type li button {
   background-image: url(../images/asoshartje.png);
   background-size: 1.3em;
@@ -559,21 +563,7 @@ display: block;
   animation: hartje-animatie 0.5s;
 }
 
-/* active en focus */
-#pagina2 ul:first-of-type li button:focus {
-  transform: scale(1.05);
-}
-
-#pagina2 ul:first-of-type li button:active {
-  box-shadow: 5px 4px 6px 0px rgba(0,0,0,0.75);
-}
-
-
-#pagina2  ul:first-of-type li {
-  width: 45%;
-  position: relative;
-  }
-
+/* hartje bonkt animatie */
 @keyframes hartje-animatie {
   0% {
     transform: scale(1);
@@ -591,3 +581,18 @@ display: block;
     transform: scale(1);
   }
 }
+
+/* active en focus */
+#pagina2 ul:first-of-type li button:focus {
+  transform: scale(1.05);
+}
+
+#pagina2 ul:first-of-type li button:active {
+  box-shadow: 5px 4px 6px 0px rgba(0,0,0,0.75);
+}
+
+
+#pagina2  ul:first-of-type li {
+  width: 45%;
+  position: relative;
+  }
